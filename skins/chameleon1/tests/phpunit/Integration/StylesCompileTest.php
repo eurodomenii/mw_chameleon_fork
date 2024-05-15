@@ -24,7 +24,7 @@
 
 namespace Skins\Chameleon1\Tests\Integration;
 
-use Bootstrap\BootstrapManager;
+use Bootstrap\BootstrapManager1;
 use CSSMin;
 use HashBagOStuff;
 use SCSS\ResourceLoaderSCSSModule;
@@ -50,7 +50,7 @@ class StylesCompileTest extends \PHPUnit\Framework\TestCase {
 			->getMock();
 
 		$setupAfterCache = new SetupAfterCache(
-			BootstrapManager::getInstance(),
+			BootstrapManager1::getInstance(),
 			$GLOBALS,
 			$request
 		);
@@ -62,7 +62,7 @@ class StylesCompileTest extends \PHPUnit\Framework\TestCase {
 			->getMock();
 
 		$module =
-			new ResourceLoaderSCSSModule( $GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap.styles' ] );
+			new ResourceLoaderSCSSModule( $GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.styles' ] );
 		$module->setCache( new HashBagOStuff() );
 
 		$styles = $module->getStyles( $resourceLoaderContext );

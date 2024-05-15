@@ -26,7 +26,7 @@
 
 namespace Skins\Chameleon1\Hooks;
 
-use Bootstrap\BootstrapManager;
+use Bootstrap\BootstrapManager1;
 use MediaWiki\MediaWikiServices;
 use RuntimeException;
 use Skins\Chameleon1\Chameleon1;
@@ -43,11 +43,11 @@ use Skins\Chameleon1\Chameleon1;
  */
 class SetupAfterCache {
 
-	private BootstrapManager $bootstrapManager;
+	private BootstrapManager1 $bootstrapManager;
 	private array $configuration;
 	private \WebRequest $request;
 
-	public function __construct( BootstrapManager $bootstrapManager, array $configuration, \WebRequest $request ) {
+	public function __construct( BootstrapManager1 $bootstrapManager, array $configuration, \WebRequest $request ) {
 		$this->bootstrapManager = $bootstrapManager;
 		$this->configuration = $configuration;
 		$this->request = $request;
@@ -234,7 +234,7 @@ class SetupAfterCache {
 				$styles = [
 					'mediawiki.ui.button',
 					'skins.chameleon1',
-					'zzz.ext.bootstrap.styles',
+					'zzz.ext.bootstrap1.styles',
 				];
 
 				if ( $this->configuration[ 'egChameleon1EnableExternalLinkIcons' ] === true &&

@@ -24,7 +24,7 @@
 
 namespace Skins\Chameleon1\Tests\Unit\Hooks;
 
-use Bootstrap\BootstrapManager;
+use Bootstrap\BootstrapManager1;
 use PHPUnit\Framework\TestCase;
 use Skins\Chameleon1\Hooks\SetupAfterCache;
 use WebRequest;
@@ -57,7 +57,7 @@ class SetupAfterCacheTest extends TestCase {
 	 * @covers ::__construct
 	 */
 	public function testCanConstruct() {
-		$bootstrapManager = $this->getMockBuilder( BootstrapManager::class )
+		$bootstrapManager = $this->getMockBuilder( BootstrapManager1::class )
 			->disableOriginalConstructor()
 			->getMock();
 

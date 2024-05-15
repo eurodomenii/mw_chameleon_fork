@@ -52,8 +52,8 @@ class ResourceLoaderRegisterModules {
 
 	private function registerBootstrap(): void {
 		$this->resourceLoader->register(
-			'zzz.ext.bootstrap.styles',
-			$this->configuration['wgResourceModules']['ext.bootstrap.styles']
+			'zzz.ext.bootstrap1.styles',
+			$this->configuration['wgResourceModules']['ext.bootstrap1.styles']
 		);
 	}
 

@@ -26,7 +26,7 @@
 
 namespace Skins\Chameleon1;
 
-use Bootstrap\BootstrapManager;
+use Bootstrap\BootstrapManager1;
 use FileFetcher\SimpleFileFetcher;
 use MediaWiki\MediaWikiServices;
 use OutputPage;
@@ -75,7 +75,7 @@ class Chameleon1 extends SkinTemplate {
 		 */
 		$GLOBALS[ 'wgHooks' ][ 'SetupAfterCache' ][ ] = function () {
 			$setupAfterCache = new SetupAfterCache(
-				BootstrapManager::getInstance(),
+				BootstrapManager1::getInstance(),
 				$GLOBALS,
 				$GLOBALS['wgRequest']
 			);
@@ -149,7 +149,7 @@ class Chameleon1 extends SkinTemplate {
 	public function addSkinModulesToOutput() {
 		// load Bootstrap scripts
 		$output = $this->getOutput();
-		$output->addModules( [ 'ext.bootstrap.scripts' ] );
+		$output->addModules( [ 'ext.bootstrap1.scripts' ] );
 		$output->addModules(
 			$this->getComponentFactory()->getRootComponent()->getResourceLoaderModules() );
 	}

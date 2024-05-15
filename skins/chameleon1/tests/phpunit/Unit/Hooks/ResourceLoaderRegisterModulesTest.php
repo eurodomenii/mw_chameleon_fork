@@ -47,7 +47,7 @@ class ResourceLoaderRegisterModulesTest extends TestCase {
 	private function newBaseConfig(): array {
 		return [
 			'wgResourceModules' => [
-				'ext.bootstrap.styles' => [ 'foo' => 'bar' ]
+				'ext.bootstrap1.styles' => [ 'foo' => 'bar' ]
 			],
 			'egChameleon1EnableExternalLinkIcons' => false
 		];
@@ -82,7 +82,7 @@ class ResourceLoaderRegisterModulesTest extends TestCase {
 		$resourceLoader->expects( $this->exactly( 2 ) )
 			->method( 'register' )
 			->withConsecutive(
-				[ 'zzz.ext.bootstrap.styles', [ 'foo' => 'bar' ] ],
+				[ 'zzz.ext.bootstrap1.styles', [ 'foo' => 'bar' ] ],
 				[ 'skins.chameleon1', [
 					'class' => 'ResourceLoaderSkinModule',
 					'features' => $this->getBaseFeatures(),
@@ -117,7 +117,7 @@ class ResourceLoaderRegisterModulesTest extends TestCase {
 		$resourceLoader->expects( $this->exactly( 2 ) )
 			->method( 'register' )
 			->withConsecutive(
-				[ 'zzz.ext.bootstrap.styles', [ 'foo' => 'bar' ] ],
+				[ 'zzz.ext.bootstrap1.styles', [ 'foo' => 'bar' ] ],
 				[ 'skins.chameleon1', [
 					'class' => 'ResourceLoaderSkinModule',
 					'features' => $features,
