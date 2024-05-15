@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dr Lotus Black",
+			"Lionslayer",
+			"Sanlinnaing"
+		]
+	},
+	"chameleon2-loggedin": "သင်သည် $1 အဖြစ် အကောင့်သို့ မဝင်ထားပါ။",
+	"chameleon2-notloggedin": "သင်သည် အကောင့်သို့ မဝင်ထားပါ။",
+	"chameleon2-newmessages": "မက်ဆေ့အသစ်များ ရောက်နေသည်",
+	"chameleon2-nonewmessages": "မက်ဆေ့အသစ်များ မရောက်ရှိပါ",
+	"chameleon2-search-aria-label": "စာမျက်နှာသို့ သွားပါ",
+	"chameleon2-toggler": "မီးနူး"
+}

@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Lokal Profil",
+			"WikiPhoenix"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Ett mycket flexibelt och responsivt utseende som använder Bootstrap 4",
+	"chameleon2-loggedin": "Du är inloggad som $1.",
+	"chameleon2-notloggedin": "Du är inte inloggad.",
+	"chameleon2-newmessages": "Du har nya meddelanden.",
+	"chameleon2-nonewmessages": "Du har inga nya meddelanden.",
+	"chameleon2-search-aria-label": "Gå till sida",
+	"chameleon2-toggler": "Meny"
+}

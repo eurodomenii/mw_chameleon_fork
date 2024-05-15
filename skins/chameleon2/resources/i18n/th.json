@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Geonuch"
+		]
+	},
+	"skinname-chameleon2": "คาเมเลียน",
+	"chameleon2-desc": "สกินคาเมเลียน",
+	"chameleon2-loggedin": "คุณเข้าสู่ระบบในชื่อ $1",
+	"chameleon2-notloggedin": "คุณยังไม่ได้เข้าสู่ระบบ",
+	"chameleon2-newmessages": "คุณมีสารใหม่",
+	"chameleon2-nonewmessages": "คุณยังไม่มีสารใหม่"
+}

@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fulup",
+			"Huñvreüs",
+			"Y-M D"
+		]
+	},
+	"skinname-chameleon2": "Kameleon",
+	"chameleon2-desc": "Gwisk Kameleon",
+	"chameleon2-loggedin": "Kevreet oc'h evel $1.",
+	"chameleon2-notloggedin": "N'oc'h ket kevreet.",
+	"chameleon2-newmessages": "Kemennadennoù nevez hoc'h eus.",
+	"chameleon2-nonewmessages": "N'hoc'h eus kemennadenn nevez .",
+	"chameleon2-search-aria-label": "Mont d'ar bajenn",
+	"chameleon2-toggler": "Lañser"
+}

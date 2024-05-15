@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aftab1995",
+			"Aftabuzzaman",
+			"আজিজ",
+			"আফতাবুজ্জামান"
+		]
+	},
+	"chameleon2-desc": "বহুরূপী আবরণ",
+	"chameleon2-loggedin": "আপনি $1 হিসাবে প্রবেশ করেছেন।",
+	"chameleon2-notloggedin": "আপনি প্রবেশ করেন নি",
+	"chameleon2-newmessages": "আপনার নতুন বার্তা এসেছে।",
+	"chameleon2-nonewmessages": "আপনার কাছে কোনও নতুন বার্তা নেই।"
+}

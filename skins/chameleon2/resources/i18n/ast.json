@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "El tema Chameleon2.",
+	"chameleon2-loggedin": "Aniciasti sesión como $1.",
+	"chameleon2-notloggedin": "Nun aniciasti sesión",
+	"chameleon2-newmessages": "Tienes mensaxes nuevos.",
+	"chameleon2-nonewmessages": "Nun tienes mensaxes nuevos.",
+	"chameleon2-search-aria-label": "Dir a páxina"
+}

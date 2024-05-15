@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eitvys200",
+			"Nokeoo"
+		]
+	},
+	"chameleon2-desc": "Chameleon2 išvaizda",
+	"chameleon2-loggedin": "Jūs esate prisijungęs kaip $1.",
+	"chameleon2-notloggedin": "Jūs esate neprisijungęs.",
+	"chameleon2-newmessages": "Jūs turite naujų žinučių.",
+	"chameleon2-nonewmessages": "Jūs neturite naujų pranešimų."
+}

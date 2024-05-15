@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16",
+			"Lorem Ipsum",
+			"Selven"
+		]
+	},
+	"skinname-chameleon2": "Camaleonte",
+	"chameleon2-desc": "Un tema reattivo e molto flessibile che usa Bootstrap 4",
+	"chameleon2-loggedin": "Hai effettuato l'accesso come $1.",
+	"chameleon2-notloggedin": "Non hai effettuato l'accesso",
+	"chameleon2-newmessages": "Hai nuovi messaggi.",
+	"chameleon2-nonewmessages": "Non hai nuovi messaggi.",
+	"chameleon2-toggler": "Menu"
+}

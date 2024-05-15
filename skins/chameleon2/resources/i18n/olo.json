@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mashoi7"
+		]
+	},
+	"chameleon2-loggedin": "Olet kirjutannuhes käyttäjänny $1.",
+	"chameleon2-notloggedin": "Et ole kirjutannuhes.",
+	"chameleon2-newmessages": "Sinul on uuzii viestilöi.",
+	"chameleon2-nonewmessages": "Sinul ei ole uuzii viestilöi."
+}

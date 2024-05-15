@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"NoiX180"
+		]
+	},
+	"skinname-chameleon2": "Bunglon",
+	"chameleon2-desc": "Ules bunglon",
+	"chameleon2-loggedin": "Panjenengan mlebu log minangka $1.",
+	"chameleon2-notloggedin": "Panjenengan durung mlebu log",
+	"chameleon2-newmessages": "Panjenengan éntuk layang anyar.",
+	"chameleon2-nonewmessages": "Panjenengan ora duwé layang anyar."
+}

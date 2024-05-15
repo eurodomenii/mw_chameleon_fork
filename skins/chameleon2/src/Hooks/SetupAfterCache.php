@@ -2,17 +2,17 @@
 /**
  * File containing the BeforeInitialize class
  *
- * This file is part of the MediaWiki skin Chameleon1.
+ * This file is part of the MediaWiki skin Chameleon2.
  *
  * @copyright 2013 - 2019, Stephan Gambke, mwjames
  * @license   GPL-3.0-or-later
  *
- * The Chameleon1 skin is free software: you can redistribute it and/or modify
+ * The Chameleon2 skin is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by the Free
  * Software Foundation, either version 3 of the License, or (at your option) any
  * later version.
  *
- * The Chameleon1 skin is distributed in the hope that it will be useful, but
+ * The Chameleon2 skin is distributed in the hope that it will be useful, but
  * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
  * details.
@@ -24,12 +24,12 @@
  * @ingroup Skins
  */
 
-namespace Skins\Chameleon1\Hooks;
+namespace Skins\Chameleon2\Hooks;
 
-use Bootstrap\BootstrapManager1;
+use Bootstrap\BootstrapManager2;
 use MediaWiki\MediaWikiServices;
 use RuntimeException;
-use Skins\Chameleon1\Chameleon1;
+use Skins\Chameleon2\Chameleon2;
 
 /**
  * @see https://www.mediawiki.org/wiki/Manual:Hooks/SetupAfterCache
@@ -43,11 +43,11 @@ use Skins\Chameleon1\Chameleon1;
  */
 class SetupAfterCache {
 
-	private BootstrapManager1 $bootstrapManager;
+	private BootstrapManager2 $bootstrapManager;
 	private array $configuration;
 	private \WebRequest $request;
 
-	public function __construct( BootstrapManager1 $bootstrapManager, array $configuration, \WebRequest $request ) {
+	public function __construct( BootstrapManager2 $bootstrapManager, array $configuration, \WebRequest $request ) {
 		$this->bootstrapManager = $bootstrapManager;
 		$this->configuration = $configuration;
 		$this->request = $request;
@@ -64,16 +64,16 @@ class SetupAfterCache {
 	}
 
 	/**
-	 * Set local and remote base path of the Chameleon1 skin
+	 * Set local and remote base path of the Chameleon2 skin
 	 */
 	protected function setInstallPaths(): void {
-		$GLOBALS[ 'chameleon1LocalPath' ] = $this->configuration['wgStyleDirectory'] . '/chameleon1';
-		$GLOBALS[ 'chameleon1RemotePath' ] = $this->configuration['wgStylePath'] . '/chameleon1';
+		$GLOBALS[ 'chameleon2LocalPath' ] = $this->configuration['wgStyleDirectory'] . '/chameleon2';
+		$GLOBALS[ 'chameleon2RemotePath' ] = $this->configuration['wgStylePath'] . '/chameleon2';
 	}
 
 	protected function addLateSettings() {
 		$this->registerSkinWithMW();
-		$this->addChameleon1ToVisualEditorSupportedSkins();
+		$this->addChameleon2ToVisualEditorSupportedSkins();
 		//vanhack eliminare scripturi sticky js duplicate, oricum nu am nevoie de ele.
 		//$this->addResourceModules();
 		$this->setLayoutFile();
@@ -82,47 +82,47 @@ class SetupAfterCache {
 	protected function registerCommonBootstrapModules(): void {
 		$this->bootstrapManager->addAllBootstrapModules();
 
-		if ( !empty( $this->configuration[ 'egChameleon1ThemeFile' ] ) ) {
+		if ( !empty( $this->configuration[ 'egChameleon2ThemeFile' ] ) ) {
 			$this->bootstrapManager->addStyleFile(
-				$this->configuration[ 'egChameleon1ThemeFile' ],
+				$this->configuration[ 'egChameleon2ThemeFile' ],
 				'beforeVariables'
 			);
 		}
 
 		$this->bootstrapManager->addStyleFile(
-			$GLOBALS[ 'chameleon1LocalPath' ] . '/resources/styles/_variables.scss',
+			$GLOBALS[ 'chameleon2LocalPath' ] . '/resources/styles/_variables.scss',
 			'variables'
 		);
 
 		$this->bootstrapManager->addStyleFile(
-			$GLOBALS[ 'chameleon1LocalPath' ] . '/resources/fontawesome/scss/fontawesome.scss'
+			$GLOBALS[ 'chameleon2LocalPath' ] . '/resources/fontawesome/scss/fontawesome.scss'
 		);
 
 		$this->bootstrapManager->addStyleFile(
-			$GLOBALS[ 'chameleon1LocalPath' ] . 	'/resources/fontawesome/scss/fa-solid.scss'
+			$GLOBALS[ 'chameleon2LocalPath' ] . 	'/resources/fontawesome/scss/fa-solid.scss'
 		);
 
 		$this->bootstrapManager->addStyleFile(
-			$GLOBALS[ 'chameleon1LocalPath' ] . '/resources/fontawesome/scss/fa-regular.scss'
+			$GLOBALS[ 'chameleon2LocalPath' ] . '/resources/fontawesome/scss/fa-regular.scss'
 		);
 
 		$this->bootstrapManager->addStyleFile(
-			$GLOBALS[ 'chameleon1LocalPath' ] . '/resources/fontawesome/scss/fa-brands.scss'
+			$GLOBALS[ 'chameleon2LocalPath' ] . '/resources/fontawesome/scss/fa-brands.scss'
 		);
 
 		$this->bootstrapManager->addStyleFile(
-			$GLOBALS[ 'chameleon1LocalPath' ] . '/resources/styles/chameleon1.scss'
+			$GLOBALS[ 'chameleon2LocalPath' ] . '/resources/styles/chameleon2.scss'
 		);
 
 		$this->bootstrapManager->setScssVariable(
 			'fa-font-path',
-			$GLOBALS[ 'chameleon1RemotePath' ] . '/resources/fontawesome/webfonts'
+			$GLOBALS[ 'chameleon2RemotePath' ] . '/resources/fontawesome/webfonts'
 		);
 	}
 
 	protected function registerExternalScssModules() {
-		if ( $this->hasConfigurationOfTypeArray( 'egChameleon1ExternalStyleModules' ) ) {
-			foreach ( $this->configuration[ 'egChameleon1ExternalStyleModules' ] as $localFile => $position ) {
+		if ( $this->hasConfigurationOfTypeArray( 'egChameleon2ExternalStyleModules' ) ) {
+			foreach ( $this->configuration[ 'egChameleon2ExternalStyleModules' ] as $localFile => $position ) {
 				$config = $this->matchAssociativeElement( $localFile, $position );
 				$config[0] = $this->isReadableFile( $config[0] );
 
@@ -132,9 +132,9 @@ class SetupAfterCache {
 	}
 
 	protected function registerExternalStyleVariables() {
-		if ( $this->hasConfigurationOfTypeArray( 'egChameleon1ExternalStyleVariables' ) ) {
+		if ( $this->hasConfigurationOfTypeArray( 'egChameleon2ExternalStyleVariables' ) ) {
 
-			foreach ( $this->configuration[ 'egChameleon1ExternalStyleVariables' ] as $key => $value ) {
+			foreach ( $this->configuration[ 'egChameleon2ExternalStyleVariables' ] as $key => $value ) {
 				$this->bootstrapManager->setScssVariable( $key, $value );
 			}
 		}
@@ -178,43 +178,43 @@ class SetupAfterCache {
 		throw new RuntimeException( "Expected an accessible {$file} file" );
 	}
 
-	protected function addChameleon1ToVisualEditorSupportedSkins(): void {
+	protected function addChameleon2ToVisualEditorSupportedSkins(): void {
 		// if Visual Editor is installed and there is a setting to enable or disable it
 		if ( $this->hasConfiguration( 'wgVisualEditorSupportedSkins' ) &&
-			$this->hasConfiguration( 'egChameleon1EnableVisualEditor' ) ) {
+			$this->hasConfiguration( 'egChameleon2EnableVisualEditor' ) ) {
 
 			// if VE should be enabled
-			if ( $this->configuration[ 'egChameleon1EnableVisualEditor' ] === true ) {
+			if ( $this->configuration[ 'egChameleon2EnableVisualEditor' ] === true ) {
 
-				// if Chameleon1 is not yet in the list of VE-enabled skins
-				if ( !in_array( 'chameleon1', $this->configuration[ 'wgVisualEditorSupportedSkins' ] ) ) {
-					$GLOBALS[ 'wgVisualEditorSupportedSkins' ][] = 'chameleon1';
+				// if Chameleon2 is not yet in the list of VE-enabled skins
+				if ( !in_array( 'chameleon2', $this->configuration[ 'wgVisualEditorSupportedSkins' ] ) ) {
+					$GLOBALS[ 'wgVisualEditorSupportedSkins' ][] = 'chameleon2';
 				}
 
 			} else {
-				// remove all entries of Chameleon1 from the list of VE-enabled skins
+				// remove all entries of Chameleon2 from the list of VE-enabled skins
 				$GLOBALS[ 'wgVisualEditorSupportedSkins' ] = array_diff(
 					$this->configuration[ 'wgVisualEditorSupportedSkins' ],
-					[ 'chameleon1' ]
+					[ 'chameleon2' ]
 				);
 			}
 		}
 	}
 
 	protected function addResourceModules(): void {
-		$GLOBALS[ 'wgResourceModules' ][ 'skin.chameleon1.sticky' ] = [
-			'localBasePath'  => $GLOBALS[ 'chameleon1LocalPath' ] . '/resources/js',
-			'remoteBasePath' => $GLOBALS[ 'chameleon1RemotePath' ] . '/resources/js',
-			'group'          => 'skin.chameleon1',
+		$GLOBALS[ 'wgResourceModules' ][ 'skin.chameleon2.sticky' ] = [
+			'localBasePath'  => $GLOBALS[ 'chameleon2LocalPath' ] . '/resources/js',
+			'remoteBasePath' => $GLOBALS[ 'chameleon2RemotePath' ] . '/resources/js',
+			'group'          => 'skin.chameleon2',
 			'skinScripts'    =>
-				[ 'chameleon1' => [ 'hc-sticky/hc-sticky.js', 'Components/Modifications/sticky.js' ] ]
+				[ 'chameleon2' => [ 'hc-sticky/hc-sticky.js', 'Components/Modifications/sticky.js' ] ]
 		];
 
-		$GLOBALS[ 'wgResourceModules' ][ 'skin.chameleon1.toc' ] = [
-			'localBasePath'  => $GLOBALS[ 'chameleon1LocalPath' ] . '/resources',
-			'remoteBasePath' => $GLOBALS[ 'chameleon1RemotePath' ] . '/resources',
-			'group'          => 'skin.chameleon1',
-			'skinScripts'    => [ 'chameleon1' => [ 'js/Components/toc.js' ] ]
+		$GLOBALS[ 'wgResourceModules' ][ 'skin.chameleon2.toc' ] = [
+			'localBasePath'  => $GLOBALS[ 'chameleon2LocalPath' ] . '/resources',
+			'remoteBasePath' => $GLOBALS[ 'chameleon2RemotePath' ] . '/resources',
+			'group'          => 'skin.chameleon2',
+			'skinScripts'    => [ 'chameleon2' => [ 'js/Components/toc.js' ] ]
 		];
 	}
 
@@ -222,29 +222,29 @@ class SetupAfterCache {
 		$layout = $this->request->getVal( 'uselayout' );
 
 		if ( $layout !== null &&
-			$this->hasConfigurationOfTypeArray( 'egChameleon1AvailableLayoutFiles' ) &&
-			array_key_exists( $layout, $this->configuration[ 'egChameleon1AvailableLayoutFiles' ] ) ) {
+			$this->hasConfigurationOfTypeArray( 'egChameleon2AvailableLayoutFiles' ) &&
+			array_key_exists( $layout, $this->configuration[ 'egChameleon2AvailableLayoutFiles' ] ) ) {
 
-			$GLOBALS[ 'egChameleon1LayoutFile' ] = $this->configuration[ 'egChameleon1AvailableLayoutFiles' ][ $layout ];
+			$GLOBALS[ 'egChameleon2LayoutFile' ] = $this->configuration[ 'egChameleon2AvailableLayoutFiles' ][ $layout ];
 		}
 	}
 
 	protected function registerSkinWithMW() {
-		MediaWikiServices::getInstance()->getSkinFactory()->register( 'chameleon1', 'Chameleon1',
+		MediaWikiServices::getInstance()->getSkinFactory()->register( 'chameleon2', 'Chameleon2',
 			function () {
 				$styles = [
 					'mediawiki.ui.button',
-					'skins.chameleon1',
-					'zzz.ext.bootstrap1.styles',
+					'skins.chameleon2',
+					'zzz.ext.bootstrap2.styles',
 				];
 
-				if ( $this->configuration[ 'egChameleon1EnableExternalLinkIcons' ] === true &&
+				if ( $this->configuration[ 'egChameleon2EnableExternalLinkIcons' ] === true &&
 					version_compare( $this->configuration['wgVersion'], '1.39', '<' ) ) {
 					array_unshift( $styles, 'mediawiki.skinning.content.externallinks' );
 				}
 
-				return new Chameleon1( [
-					'name' => 'chameleon1',
+				return new Chameleon2( [
+					'name' => 'chameleon2',
 					'styles' => $styles,
 					'bodyOnly' => version_compare( $this->configuration['wgVersion'], '1.39', '>=' ),
 				] );

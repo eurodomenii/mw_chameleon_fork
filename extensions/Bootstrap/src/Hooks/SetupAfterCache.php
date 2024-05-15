@@ -118,37 +118,39 @@ class SetupAfterCache {
 			'dependencies' => [ 'ext.bootstrap.styles', 'ext.bootstrap.scripts' ],
 		];
 
-		$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.styles' ] = array_replace_recursive(
-			[
-				'localBasePath' => $localBasePath . '/scss',
-				'remoteBasePath' => $remoteBasePath . '/scss',
-				'class' => ResourceLoaderSCSSModule::class,
-				'position' => 'top',
-				'styles' => [],
-				'variables' => [],
-				'dependencies' => [],
-				'cacheTriggers' => [
-					'LocalSettings.php' => null,
-					'composer.lock' => null,
+		for($i = 1; $i<=2; $i++) {
+			$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i .'.styles' ] = array_replace_recursive(
+				[
+					'localBasePath' => $localBasePath . '/scss',
+					'remoteBasePath' => $remoteBasePath . '/scss',
+					'class' => ResourceLoaderSCSSModule::class,
+					'position' => 'top',
+					'styles' => [],
+					'variables' => [],
+					'dependencies' => [],
+					'cacheTriggers' => [
+						'LocalSettings.php' => null,
+						'composer.lock' => null,
+					],
 				],
-			],
-			array_key_exists( 'ext.bootstrap1.styles', $GLOBALS[ 'wgResourceModules' ] ) ?
-				$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.styles' ] : []
-		);
+				array_key_exists( 'ext.bootstrap'. $i. '.styles', $GLOBALS[ 'wgResourceModules' ] ) ?
+					$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i .'.styles' ] : []
+			);
 
-		$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.scripts' ] = array_replace_recursive(
-			[
-				'localBasePath'  => $localBasePath . '/js',
-				'remoteBasePath' => $remoteBasePath . '/js',
-				'scripts' => [],
-			],
-			array_key_exists( 'ext.bootstrap1.scripts', $GLOBALS[ 'wgResourceModules' ] ) ?
-				$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.scripts' ] : []
-		);
+			$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i .'.scripts' ] = array_replace_recursive(
+				[
+					'localBasePath'  => $localBasePath . '/js',
+					'remoteBasePath' => $remoteBasePath . '/js',
+					'scripts' => [],
+				],
+				array_key_exists( 'ext.bootstrap'. $i .'.scripts', $GLOBALS[ 'wgResourceModules' ] ) ?
+					$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i .'.scripts' ] : []
+			);
 
-		$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1' ] = [
-			'dependencies' => [ 'ext.bootstrap1.styles', 'ext.bootstrap1.scripts' ],
-		];
+			$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i ] = [
+				'dependencies' => [ 'ext.bootstrap'. $i .'.styles', 'ext.bootstrap'. $i .'.scripts' ],
+			];
+	    }
 	}
 
 	/**
@@ -189,12 +191,14 @@ class SetupAfterCache {
 					$filename;
 			}
 
-			if ( array_key_exists( $key,
-			$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.styles' ][ 'cacheTriggers' ] ) &&
-			$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.styles' ][ 'cacheTriggers' ][ $key ]
-				=== null ) {
-			$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap1.styles' ][ 'cacheTriggers' ][ $key ] =
-				$filename;
+			for($i = 1; $i<=2; $i++) {
+				if ( array_key_exists( $key,
+					$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i .'.styles' ][ 'cacheTriggers' ] ) &&
+					$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i .'.styles' ][ 'cacheTriggers' ][ $key ]
+						=== null ) {
+					$GLOBALS[ 'wgResourceModules' ][ 'ext.bootstrap'. $i .'.styles' ][ 'cacheTriggers' ][ $key ] =
+						$filename;
+			}
 		}
 		}
 	}

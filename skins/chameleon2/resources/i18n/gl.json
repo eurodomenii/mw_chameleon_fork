@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Elisardojm",
+			"Toliño"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Unha aparencia flexible e adaptable que utiliza Bootstrap 4",
+	"chameleon2-loggedin": "Está conectado como $1.",
+	"chameleon2-notloggedin": "Non está conectado.",
+	"chameleon2-newmessages": "Ten mensaxes novas.",
+	"chameleon2-nonewmessages": "Non ten mensaxes novas.",
+	"chameleon2-search-aria-label": "Ir á páxina",
+	"chameleon2-toggler": "Menú"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kaszeba"
+		]
+	},
+	"skinname-chameleon2": "Kaméleòn",
+	"chameleon2-desc": "Skórka Kaméleòn",
+	"chameleon2-loggedin": "Jes wlogòwóny jakno $1.",
+	"chameleon2-notloggedin": "Nie jes wlogòwóny",
+	"chameleon2-newmessages": "Môsz nowé wiadła",
+	"chameleon2-nonewmessages": "Nié môsz nowich wiadłów"
+}

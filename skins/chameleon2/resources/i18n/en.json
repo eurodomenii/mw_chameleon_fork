@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Stephan Gambke"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "A highly flexible responsive skin using Bootstrap 4",
+	"chameleon2-loggedin": "You are logged in as $1.",
+	"chameleon2-notloggedin": "You are not logged in.",
+	"chameleon2-newmessages": "You have new messages.",
+	"chameleon2-nonewmessages": "You have no new messages.",
+	"chameleon2-search-aria-label": "Go to page",
+	"chameleon2-toggler": "Menu"
+}

@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Liuxinyu970226",
+			"Winston Sung"
+		]
+	},
+	"skinname-chameleon2": "變色龍",
+	"chameleon2-desc": "使用 Bootstrap 4 的高度彈性回應外觀",
+	"chameleon2-loggedin": "您已登入為 $1。",
+	"chameleon2-notloggedin": "您尚未登入",
+	"chameleon2-newmessages": "您有新訊息。",
+	"chameleon2-nonewmessages": "你沒有新訊息。",
+	"chameleon2-search-aria-label": "前往頁面",
+	"chameleon2-toggler": "選單"
+}

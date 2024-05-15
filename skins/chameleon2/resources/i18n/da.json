@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joedalton",
+			"Saederup92"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Temaet Chameleon2",
+	"chameleon2-loggedin": "Du er logget ind som $1.",
+	"chameleon2-notloggedin": "Du er ikke logget ind.",
+	"chameleon2-newmessages": "Du har nye beskeder.",
+	"chameleon2-nonewmessages": "Du har ingen nye beskeder.",
+	"chameleon2-search-aria-label": "Gå til side"
+}

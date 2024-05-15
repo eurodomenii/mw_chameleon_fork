@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hamilton Abreu",
+			"Vitorvicentevalente"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Um tema de resposta rápida e altamente flexível que usa Bootstrap 4",
+	"chameleon2-loggedin": "Sessão iniciada como $1.",
+	"chameleon2-notloggedin": "Não tem sessão iniciada",
+	"chameleon2-newmessages": "Tem novas mensagens.",
+	"chameleon2-nonewmessages": "Não tem novas mensagens.",
+	"chameleon2-search-aria-label": "Ir para a página",
+	"chameleon2-toggler": "Menu"
+}

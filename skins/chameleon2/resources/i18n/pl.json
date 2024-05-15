@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Matma Rex",
+			"Rail",
+			"Railfail536",
+			"Ty221"
+		]
+	},
+	"skinname-chameleon2": "Kameleon",
+	"chameleon2-desc": "Wysoce elastyczna, responsywna skórka używająca technologii Bootstrap 4",
+	"chameleon2-loggedin": "Jesteś zalogowany jako $1.",
+	"chameleon2-notloggedin": "Nie jesteś zalogowany",
+	"chameleon2-newmessages": "Masz nowe wiadomości.",
+	"chameleon2-nonewmessages": "Nie masz nowych wiadomości.",
+	"chameleon2-search-aria-label": "Przejdź do strony"
+}

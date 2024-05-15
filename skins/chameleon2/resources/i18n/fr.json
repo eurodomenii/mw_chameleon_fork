@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Gomoko",
+			"Orlodrim",
+			"Verdy p",
+			"Wladek92"
+		]
+	},
+	"skinname-chameleon2": "Caméléon",
+	"chameleon2-desc": "Un habillage dynamique très flexible utilisant Bootstrap 4",
+	"chameleon2-loggedin": "Vous êtes connecté{{GENDER:$1||e}} en tant que $1.",
+	"chameleon2-notloggedin": "Vous n’êtes pas connecté(e).",
+	"chameleon2-newmessages": "Vous avez de nouveaux messages.",
+	"chameleon2-nonewmessages": "Vous n’avez aucun nouveau message.",
+	"chameleon2-search-aria-label": "Aller à la page",
+	"chameleon2-toggler": "Menu"
+}

@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Ny skin chameleon2",
+	"chameleon2-loggedin": "Tafiditra amin'ny anarana $1 ianao.",
+	"chameleon2-notloggedin": "Tsy tafiditra ianao.",
+	"chameleon2-newmessages": "Misy hafatra vaovao.",
+	"chameleon2-nonewmessages": "Tsy misy hafatra vaovao."
+}

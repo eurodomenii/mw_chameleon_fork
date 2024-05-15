@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"skinname-chameleon2": "Kameleon",
+	"chameleon2-desc": "Visokoprilagodljiv i odzivni izgled koji rabi Bootstrap 4",
+	"chameleon2-loggedin": "Prijavljeni ste kao $1.",
+	"chameleon2-notloggedin": "Niste prijavljeni",
+	"chameleon2-newmessages": "Imate nove poruke",
+	"chameleon2-nonewmessages": "Nemate nove poruke.",
+	"chameleon2-search-aria-label": "Idi na stranicu",
+	"chameleon2-toggler": "Meni"
+}

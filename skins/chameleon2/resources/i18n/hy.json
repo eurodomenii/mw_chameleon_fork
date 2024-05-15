@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vahe Gharakhanyan",
+			"Սերգեյ Սաֆարյան"
+		]
+	},
+	"chameleon2-loggedin": "Դուք մտել եք որպես $1:",
+	"chameleon2-notloggedin": "Դուք չեք մտել համակարգ:",
+	"chameleon2-newmessages": "Դուք նոր ուղերձներ ունեք:",
+	"chameleon2-nonewmessages": "Դուք նոր ուղերձներ չունեք:",
+	"chameleon2-toggler": "Ընտրացանկ"
+}

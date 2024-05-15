@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"BaRaN6161 TURK",
+			"Hedda",
+			"Sayginer"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Bootstrap 4 kullanarak oldukça esnek ve hassas bir görünüm",
+	"chameleon2-loggedin": "$1 olarak oturum açtınız.",
+	"chameleon2-notloggedin": "Oturum açmadınız.",
+	"chameleon2-newmessages": "Yeni mesajınız var.",
+	"chameleon2-nonewmessages": "Yeni mesajınız yok.",
+	"chameleon2-search-aria-label": "Sayfaya git",
+	"chameleon2-toggler": "Menü"
+}

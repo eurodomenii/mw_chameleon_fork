@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fredrilj",
+			"Jon Harald Søby"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "En meget fleksibel drakt som bruker Bootstrap 4",
+	"chameleon2-loggedin": "Du er logget inn som $1.",
+	"chameleon2-notloggedin": "Du er ikke logget inn.",
+	"chameleon2-newmessages": "Du har nye meldinger.",
+	"chameleon2-nonewmessages": "Du har ingen nye meldinger.",
+	"chameleon2-search-aria-label": "Gå til side",
+	"chameleon2-toggler": "Meny"
+}

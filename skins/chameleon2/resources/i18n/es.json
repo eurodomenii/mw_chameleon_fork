@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Avengium",
+			"DannyS712",
+			"Fitoschido"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Una apariencia responsiva altamente flexible usando Bootstrap 4",
+	"chameleon2-loggedin": "Has accedido como $1.",
+	"chameleon2-notloggedin": "No has accedido",
+	"chameleon2-newmessages": "Tienes mensajes nuevos.",
+	"chameleon2-nonewmessages": "No tienes mensajes nuevos.",
+	"chameleon2-search-aria-label": "Ir a la página",
+	"chameleon2-toggler": "Menú"
+}

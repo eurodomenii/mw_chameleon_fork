@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"John Reid"
+		]
+	},
+	"chameleon2-desc": "The Chameleon2 skin.",
+	"chameleon2-loggedin": "Ye'r loggit in aes $1.",
+	"chameleon2-notloggedin": "Ye'r no loggit in",
+	"chameleon2-newmessages": "Ye hae new messages.",
+	"chameleon2-nonewmessages": "Ye'v nae new messages."
+}

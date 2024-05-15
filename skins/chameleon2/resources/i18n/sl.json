@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334",
+			"Eleassar"
+		]
+	},
+	"skinname-chameleon2": "Kameleon",
+	"chameleon2-desc": "Zelo prilagodljiva odzivna preobleka, ki uporablja Bootstrap 4",
+	"chameleon2-loggedin": "Prijavljeni ste kot $1.",
+	"chameleon2-notloggedin": "Niste prijavljeni.",
+	"chameleon2-newmessages": "Imate nova sporočila.",
+	"chameleon2-nonewmessages": "Nimate novih sporočil.",
+	"chameleon2-search-aria-label": "Pojdi na stran",
+	"chameleon2-toggler": "Meni"
+}

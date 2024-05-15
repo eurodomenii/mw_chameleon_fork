@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alvaro Vidal-Abarca",
+			"Fitoschido",
+			"Jmarchn",
+			"Toniher"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Una aparença sensible i altament flexible que utilitza Bootstrap 4.",
+	"chameleon2-loggedin": "Esteu connectat com a $1.",
+	"chameleon2-notloggedin": "No esteu connectat.",
+	"chameleon2-newmessages": "Teniu missatges nous.",
+	"chameleon2-nonewmessages": "No teniu missatges nous."
+}

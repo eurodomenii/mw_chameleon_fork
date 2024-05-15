@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"skinname-chameleon2": "Chameleon2",
+	"chameleon2-desc": "Un apparentia reactive e multo flexibile que usa Bootstrap 4",
+	"chameleon2-loggedin": "Tu ha aperite session como $1.",
+	"chameleon2-notloggedin": "Tu non ha aperite session",
+	"chameleon2-newmessages": "Tu ha nove messages.",
+	"chameleon2-nonewmessages": "Tu non ha nove messages.",
+	"chameleon2-search-aria-label": "Vader al pagina",
+	"chameleon2-toggler": "Menu"
+}

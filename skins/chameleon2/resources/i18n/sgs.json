@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hugo.arg"
+		]
+	},
+	"chameleon2-loggedin": "Tamsta ī prisijongė̄s kap $1.",
+	"chameleon2-notloggedin": "Tamsta nie prisijongė̄s.",
+	"chameleon2-newmessages": "Tamstā parė̄jė naujės žėnotės.",
+	"chameleon2-nonewmessages": "Pas Tamstā naujū žėnotiu nie."
+}

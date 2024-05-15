@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"BadDog",
+			"Kizule",
+			"Milicevic01",
+			"Obsuser",
+			"Zoranzoki21"
+		]
+	},
+	"skinname-chameleon2": "Камелеон",
+	"chameleon2-desc": "Веома флексибилна респонзивна тема која користи Bootstrap 4",
+	"chameleon2-loggedin": "Пријављени сте као $1.",
+	"chameleon2-notloggedin": "Нисте пријављени.",
+	"chameleon2-newmessages": "Имате нове поруке.",
+	"chameleon2-nonewmessages": "Немате нове поруке.",
+	"chameleon2-search-aria-label": "Иди на страницу",
+	"chameleon2-toggler": "Мени"
+}
