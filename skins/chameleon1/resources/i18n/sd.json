@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aursani",
+			"Mehtab ahmed"
+		]
+	},
+	"chameleon1-desc": "Bootstrap 4 استعمال ڪندي هڪ انتهائي لچڪدار رسپانسوِ کَلَ",
+	"chameleon1-loggedin": "توھان $1 نالي سان داخل ٿيل آھيو.",
+	"chameleon1-notloggedin": "توھان داخل ٿيل نہ آھيو.",
+	"chameleon1-newmessages": "توهان لاءِ نوان نياپا آهن.",
+	"chameleon1-nonewmessages": "توهان لاءِ ڪو بہ نئون نياپو نہ آهي.",
+	"chameleon1-search-aria-label": "صفحي ڏانھن وڃو",
+	"chameleon1-toggler": "مينيو"
+}

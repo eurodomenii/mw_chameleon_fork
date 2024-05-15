@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"01miki10",
+			"MITO",
+			"McSalama",
+			"Nike",
+			"Pyscowicz"
+		]
+	},
+	"skinname-chameleon1": "Kameleontti",
+	"chameleon1-desc": "Erittäin mukautuva responsiivinen ulkoasu, joka käyttää Bootstrap 4:ää",
+	"chameleon1-loggedin": "Olet kirjautunut sisään nimellä $1.",
+	"chameleon1-notloggedin": "Et ole kirjautunut sisään.",
+	"chameleon1-newmessages": "Sinulla on uusia viestejä.",
+	"chameleon1-nonewmessages": "Sinulla ei ole uusia viestejä.",
+	"chameleon1-search-aria-label": "Siirry sivulle",
+	"chameleon1-toggler": "Valikko"
+}

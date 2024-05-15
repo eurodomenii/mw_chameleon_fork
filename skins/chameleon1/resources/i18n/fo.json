@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"EileenSanda"
+		]
+	},
+	"chameleon1-desc": "Chameleon1 útsjóndin",
+	"chameleon1-loggedin": "Tú ert innritað/ur sum $1.",
+	"chameleon1-notloggedin": "Tú ert ikki innritað/ur.",
+	"chameleon1-newmessages": "Tú hevur nýggj boð.",
+	"chameleon1-nonewmessages": "Tú hevur ongi nýggj boð."
+}

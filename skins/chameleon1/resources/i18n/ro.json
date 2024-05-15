@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Minisarm",
+			"Strainu"
+		]
+	},
+	"skinname-chameleon1": "Cameleon",
+	"chameleon1-desc": "Aspectul Cameleon",
+	"chameleon1-loggedin": "V-ați autentificat ca $1.",
+	"chameleon1-notloggedin": "Nu v-ați autentificat.",
+	"chameleon1-newmessages": "Aveți mesaje noi.",
+	"chameleon1-nonewmessages": "Nu aveți mesaje noi."
+}

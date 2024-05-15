@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"គីមស៊្រុន"
+		]
+	},
+	"chameleon1-loggedin": "អ្នកកំពុងកត់ឈ្មោះចូលជា $1។",
+	"chameleon1-notloggedin": "អ្នកមិនទាន់កត់ឈ្មោះចូលទេ។",
+	"chameleon1-newmessages": "អ្នកមានសារថ្មីៗ។",
+	"chameleon1-nonewmessages": "អ្នកគ្មានសារថ្មីៗទេ។"
+}

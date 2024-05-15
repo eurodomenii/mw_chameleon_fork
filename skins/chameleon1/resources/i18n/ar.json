@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khaled",
+			"Meno25",
+			"ديفيد"
+		]
+	},
+	"skinname-chameleon1": "حرباء",
+	"chameleon1-desc": "واجهة مرنة جدا باستخدام Bootstrap 4",
+	"chameleon1-loggedin": "تم تسجيل دخولك كـ $1.",
+	"chameleon1-notloggedin": "لم تسجل الدخول.",
+	"chameleon1-newmessages": "لديك رسالة جديدة.",
+	"chameleon1-nonewmessages": "ليست لديك رسائل جديدة.",
+	"chameleon1-search-aria-label": "انتقل إلى صفحة",
+	"chameleon1-toggler": "القائمة"
+}

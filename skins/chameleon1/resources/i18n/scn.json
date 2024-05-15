@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf",
+			"Pippinu",
+			"Sarvaturi"
+		]
+	},
+	"skinname-chameleon1": "Camaleonti",
+	"chameleon1-desc": "La peddi Chameleon1",
+	"chameleon1-loggedin": "Trasisti comu $1.",
+	"chameleon1-notloggedin": "Nun trasisti.",
+	"chameleon1-newmessages": "Hai missaggî novi.",
+	"chameleon1-nonewmessages": "Nun hai nuddu missaggiu novu.",
+	"chameleon1-toggler": "Menu"
+}

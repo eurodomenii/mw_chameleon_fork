@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda",
+			"Oldstoneage"
+		]
+	},
+	"chameleon1-desc": "تصميم التاتا",
+	"chameleon1-loggedin": "راك سجلت دخلتك كـ $1.",
+	"chameleon1-notloggedin": "ما راكش مسجّل الدخول تاعك.",
+	"chameleon1-newmessages": "عندك براوات جدُد.",
+	"chameleon1-nonewmessages": "ما عندكش براوات جدُد."
+}

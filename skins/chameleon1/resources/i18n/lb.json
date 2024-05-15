@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robby"
+		]
+	},
+	"skinname-chameleon1": "Chameleon1",
+	"chameleon1-desc": "E ganz flexibele reaktiven Interface dee Bootstrap 4 benotzt",
+	"chameleon1-loggedin": "Dir sidd als $1 ageloggt.",
+	"chameleon1-notloggedin": "Dir sidd net ageloggt",
+	"chameleon1-newmessages": "Dir hutt nei Messagen.",
+	"chameleon1-nonewmessages": "Dir hutt keng nei Messagen.",
+	"chameleon1-search-aria-label": "Op d'Säit goen",
+	"chameleon1-toggler": "Menü"
+}

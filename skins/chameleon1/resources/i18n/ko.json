@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Codenstory",
+			"Ykhwong",
+			"아라"
+		]
+	},
+	"skinname-chameleon1": "카멜레온",
+	"chameleon1-desc": "부트스트랩 4를 이용한 반응형 스킨",
+	"chameleon1-loggedin": "$1님으로 로그인하고 있습니다.",
+	"chameleon1-notloggedin": "로그인하고 있지 않습니다.",
+	"chameleon1-newmessages": "새 메시지가 있습니다.",
+	"chameleon1-nonewmessages": "새 메시지가 없습니다.",
+	"chameleon1-search-aria-label": "문서로 이동",
+	"chameleon1-toggler": "메뉴"
+}

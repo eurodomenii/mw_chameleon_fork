@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jaroslav Cerny",
+			"Mormegil"
+		]
+	},
+	"skinname-chameleon1": "Chameleon1",
+	"chameleon1-desc": "Velmi pružný responzivní vzhled používající Bootstrap 4",
+	"chameleon1-loggedin": "Jste {{GENDER:|přihlášen|přihlášena|přihlášeni}} jako $1.",
+	"chameleon1-notloggedin": "Nejste přihlášeni",
+	"chameleon1-newmessages": "Máte nové zprávy.",
+	"chameleon1-nonewmessages": "Nemáte žádné nové zprávy.",
+	"chameleon1-search-aria-label": "Jít na stránku"
+}

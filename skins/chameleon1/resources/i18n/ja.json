@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"2nd-player",
+			"MathXplore",
+			"Shirayuki",
+			"SkyDaisy9",
+			"Yusuke1109"
+		]
+	},
+	"skinname-chameleon1": "カメレオン",
+	"chameleon1-desc": "Bootstrap 4 を使用した柔軟性の高いレスポンシブ外装",
+	"chameleon1-loggedin": "$1 としてログインしています。",
+	"chameleon1-notloggedin": "ログインしていません。",
+	"chameleon1-newmessages": "新着メッセージがあります。",
+	"chameleon1-nonewmessages": "新しいメッセージはありません。",
+	"chameleon1-search-aria-label": "ページへ移動",
+	"chameleon1-toggler": "メニュー"
+}

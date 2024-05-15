@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mainframe98",
+			"McDutchie",
+			"Romaine",
+			"Siebrand",
+			"Sjoerddebruin"
+		]
+	},
+	"skinname-chameleon1": "Chameleon1",
+	"chameleon1-desc": "Een zeer flexibele responsieve vormgeving met gebruik van Bootstrap 4",
+	"chameleon1-loggedin": "U bent aangemeld als $1 .",
+	"chameleon1-notloggedin": "U bent niet aangemeld",
+	"chameleon1-newmessages": "U hebt nieuwe berichten.",
+	"chameleon1-nonewmessages": "U hebt geen nieuwe berichten.",
+	"chameleon1-search-aria-label": "Naar pagina gaan",
+	"chameleon1-toggler": "Menu"
+}

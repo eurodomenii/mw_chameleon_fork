@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Belkacem77"
+		]
+	},
+	"skinname-chameleon1": "Tata",
+	"chameleon1-desc": "Asentel n ucebbeḥ Tata",
+	"chameleon1-loggedin": "Teqqneḍ s yisem $1.",
+	"chameleon1-notloggedin": "Ur teqqined ara.",
+	"chameleon1-newmessages": "Ɣur-k iznan imaynuten.",
+	"chameleon1-nonewmessages": "Ur ɣur-k ara iznan imaynuten."
+}

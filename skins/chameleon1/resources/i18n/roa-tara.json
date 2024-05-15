@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"skinname-chameleon1": "Chameleon1",
+	"chameleon1-desc": "'Nu skin assaije flessibbele e responsive ausanne Bootstrap 4",
+	"chameleon1-loggedin": "Tu è trasute cumme a $1.",
+	"chameleon1-notloggedin": "Non gè trasute.",
+	"chameleon1-newmessages": "Tìne 'nu messàgge nuève.",
+	"chameleon1-nonewmessages": "Non ge tìne messàgge nuève.",
+	"chameleon1-search-aria-label": "Veje 'a pàgene",
+	"chameleon1-toggler": "Menù"
+}

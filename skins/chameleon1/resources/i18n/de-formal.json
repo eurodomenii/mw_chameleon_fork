@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln"
+		]
+	},
+	"chameleon1-loggedin": "Sie sind als $1 angemeldet.",
+	"chameleon1-notloggedin": "Sie sind nicht angemeldet.",
+	"chameleon1-newmessages": "Sie haben neue Nachrichten.",
+	"chameleon1-nonewmessages": "Sie haben keine neuen Nachrichten.",
+	"chameleon1-search-aria-label": "Gehen Sie zu Seite"
+}

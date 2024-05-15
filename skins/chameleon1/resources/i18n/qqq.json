@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Liuxinyu970226",
+			"Robby",
+			"Shirayuki",
+			"Stephan Gambke",
+			"Umherirrender"
+		]
+	},
+	"skinname-chameleon1": "{{Optional}}\nThe name of this skin",
+	"chameleon1-desc": "{{desc|name=Chameleon1|url=https://www.mediawiki.org/wiki/Skin:Chameleon1}}",
+	"chameleon1-loggedin": "Text shown, when the user is logged in. Parameters:\n* $1 - username\nSee also:\n* {{msg-mw|Chameleon1-notloggedin}}",
+	"chameleon1-notloggedin": "Text shown, when the user is not logged in.\n\nSee also:\n* {{msg-mw|Chameleon1-loggedin}}",
+	"chameleon1-newmessages": "Text shown, when the user has new messages.\n\nSee also:\n* {{msg-mw|Chameleon1-nonewmessages}}",
+	"chameleon1-nonewmessages": "Text shown, when the user has no new messages.\n\nSee also:\n* {{msg-mw|Chameleon1-newmessages}}",
+	"chameleon1-search-aria-label": "ARIA label for the search bar button.",
+	"chameleon1-toggler": "Text for the NavbarHorizontal toggler button.\n{{identical|Menu}}"
+}

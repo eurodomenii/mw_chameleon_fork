@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kghbln",
+			"Metalhead64",
+			"Umlaut"
+		]
+	},
+	"skinname-chameleon1": "Chameleon1",
+	"chameleon1-desc": "Stellt eine flexible wie responsive, auf Twitter Bootstrap 4 gestützte, Benutzeroberfläche bereit",
+	"chameleon1-loggedin": "Du bist als $1 angemeldet.",
+	"chameleon1-notloggedin": "Du bist nicht angemeldet.",
+	"chameleon1-newmessages": "Du hast neue Nachrichten.",
+	"chameleon1-nonewmessages": "Du hast keine neuen Nachrichten.",
+	"chameleon1-search-aria-label": "Gehe zu Seite",
+	"chameleon1-toggler": "Menü"
+}

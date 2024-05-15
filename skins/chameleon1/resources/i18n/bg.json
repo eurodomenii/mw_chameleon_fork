@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"StanProg"
+		]
+	},
+	"skinname-chameleon1": "Хамелеон",
+	"chameleon1-desc": "Много гъвкав и адаптивен облик използващ Bootstrap 4",
+	"chameleon1-loggedin": "Вие сте влезли като $1.",
+	"chameleon1-notloggedin": "Вие не сте влезли в системата",
+	"chameleon1-newmessages": "Имате нови съобщения.",
+	"chameleon1-nonewmessages": "Нямате нови съобщения.",
+	"chameleon1-search-aria-label": "Към страницата",
+	"chameleon1-toggler": "Меню"
+}

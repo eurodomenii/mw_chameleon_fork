@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ioe2015",
+			"Minh Nguyen",
+			"Nguyên Lê"
+		]
+	},
+	"skinname-chameleon1": "Tắc kè hoa",
+	"chameleon1-desc": "Giao diện Tắc kè hoa",
+	"chameleon1-loggedin": "Bạn đã đăng nhập với tên $1.",
+	"chameleon1-notloggedin": "Bạn chưa đăng nhập.",
+	"chameleon1-newmessages": "Bạn có tin nhắn mới.",
+	"chameleon1-nonewmessages": "Bạn không có tin nhắn mới.",
+	"chameleon1-search-aria-label": "Đi đến trang",
+	"chameleon1-toggler": "Bảng chọn"
+}

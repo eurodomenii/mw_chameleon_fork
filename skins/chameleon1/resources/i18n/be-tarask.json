@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Red Winged Duck",
+			"Renessaince"
+		]
+	},
+	"skinname-chameleon1": "Хамэлеон",
+	"chameleon1-desc": "Высокагнуткая чуткая тэма афармленьня з выкарыстаньнем Bootstrap 4",
+	"chameleon1-loggedin": "Вы ўвайшлі як $1.",
+	"chameleon1-notloggedin": "Вы не ўвайшлі ў сыстэму",
+	"chameleon1-newmessages": "Вы маеце новыя паведамленьні.",
+	"chameleon1-nonewmessages": "У вас няма новых паведамленьняў.",
+	"chameleon1-search-aria-label": "Перайсьці на старонку"
+}

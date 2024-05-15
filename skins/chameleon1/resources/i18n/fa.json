@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alirezaaa",
+			"FarsiNevis",
+			"Reza1615"
+		]
+	},
+	"skinname-chameleon1": "آفتاب‌پرست",
+	"chameleon1-desc": "پوستهٔ آفتاب‌پرست",
+	"chameleon1-loggedin": "شما به‌عنوان  $1 وارد شده‌اید.",
+	"chameleon1-notloggedin": "شما وارد نشده‌ايد.",
+	"chameleon1-newmessages": "پیام‌های تازه‌ای دارید.",
+	"chameleon1-nonewmessages": "پیام تازه‌ای ندارید.",
+	"chameleon1-search-aria-label": "برو به صفحهٔ"
+}

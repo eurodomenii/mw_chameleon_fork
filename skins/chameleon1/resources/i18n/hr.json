@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bugoslav"
+		]
+	},
+	"chameleon1-desc": "Visokoprilagodljiv izgled s promjenjivim (interaktivnim) odzivom koji rabi Bootstrap 4 (Chameleon1)",
+	"chameleon1-loggedin": "Prijavljeni ste pod suradničkim imenom $1.",
+	"chameleon1-notloggedin": "Trenutačno niste prijavljeni.",
+	"chameleon1-newmessages": "Imate nove poruke.",
+	"chameleon1-nonewmessages": "Trenutačno nemate novih poruka."
+}

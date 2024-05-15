@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Palapa",
+			"Srdjan m",
+			"Srđan"
+		]
+	},
+	"skinname-chameleon1": "Kameleon",
+	"chameleon1-desc": "Tema \"Kameleon\"",
+	"chameleon1-loggedin": "Prijavljeni ste kao $1.",
+	"chameleon1-notloggedin": "Niste prijavljeni.",
+	"chameleon1-newmessages": "Imate nove poruke.",
+	"chameleon1-nonewmessages": "Nemate nove poruke."
+}

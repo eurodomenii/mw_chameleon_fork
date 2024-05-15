@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Muhammad Shuaib"
+		]
+	},
+	"chameleon1-desc": "گرگٹ پوشاک",
+	"chameleon1-loggedin": "آپ $1 کے نام سے داخل ہو چکے ہیں۔",
+	"chameleon1-notloggedin": "آپ داخل نہیں ہوئے۔",
+	"chameleon1-newmessages": "آپ کے لیے نئے پیغام۔",
+	"chameleon1-nonewmessages": "آپ کے لیے کوئی نیا پیغام نہیں ہے۔"
+}

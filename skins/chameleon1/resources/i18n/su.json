@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kandar",
+			"Uchup19"
+		]
+	},
+	"skinname-chameleon1": "Londok",
+	"chameleon1-desc": "Kulit Londok.",
+	"chameleon1-loggedin": "Anjeun asup log salaku $1.",
+	"chameleon1-notloggedin": "Anjeun can asup log",
+	"chameleon1-newmessages": "Aya obrolan anyar.",
+	"chameleon1-nonewmessages": "Taya obrolan anyar."
+}

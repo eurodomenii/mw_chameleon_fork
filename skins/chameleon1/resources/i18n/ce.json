@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"skinname-chameleon1": "Chameleon1",
+	"chameleon1-desc": "Bootstrap 4 лелош чӀогӀа говза тема",
+	"chameleon1-loggedin": "Ахьа болх беш бу $1 санна.",
+	"chameleon1-notloggedin": "Системин довзийтар",
+	"chameleon1-newmessages": "Хьуна кхаьчна керла хаам.",
+	"chameleon1-nonewmessages": "Хьан бац керла хаам.",
+	"chameleon1-search-aria-label": "АгӀонан чугӀо"
+}

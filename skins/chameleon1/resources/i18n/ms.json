@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aviator"
+		]
+	},
+	"skinname-chameleon1": "Chameleon1",
+	"chameleon1-desc": "Rupa Chameleon1",
+	"chameleon1-loggedin": "Anda telah log masuk sebagai $1.",
+	"chameleon1-notloggedin": "Anda belum log masuk",
+	"chameleon1-newmessages": "Anda mempunyai pesanan baru.",
+	"chameleon1-nonewmessages": "Anda tidak mempunyai pesanan baru."
+}

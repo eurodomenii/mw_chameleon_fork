@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"skinname-chameleon1": "Камелеон",
+	"chameleon1-desc": "Мошне прилагодливо и одѕивно руво што користи Bootstrap 4",
+	"chameleon1-loggedin": "Најавени сте како $1.",
+	"chameleon1-notloggedin": "Не сте најавени",
+	"chameleon1-newmessages": "Имате нови пораки",
+	"chameleon1-nonewmessages": "Немате нови пораки.",
+	"chameleon1-search-aria-label": "Оди на страница",
+	"chameleon1-toggler": "Мени"
+}

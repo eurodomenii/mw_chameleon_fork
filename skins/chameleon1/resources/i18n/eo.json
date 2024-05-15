@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mirin"
+		]
+	},
+	"skinname-chameleon1": "Kameleono",
+	"chameleon1-desc": "La etoso Kameleono",
+	"chameleon1-loggedin": "Vi ensalutis kiel $1.",
+	"chameleon1-notloggedin": "Vi ne ensalutis.",
+	"chameleon1-newmessages": "Vi havas novajn mesaĝojn.",
+	"chameleon1-nonewmessages": "Vi ne havas novajn mesaĝojn.",
+	"chameleon1-search-aria-label": "Iri al paĝo"
+}
